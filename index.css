@@ -1,0 +1,419 @@
+.displayFlex {
+  display: flex;
+  width: 100%;
+}
+.footerstyling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav img {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  transform: rotate(90deg);
+  width: 0px;
+}
+.nav h1 {
+  width: 100%;
+  font-size: 5.5rem;
+  text-align: center;
+  color: pink;
+}
+.nav .nav-bar {
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+  padding: 0px 50px;
+}
+@media (max-width: 800px) {
+  .cta img {
+    display: none;
+  }
+  header {
+    flex-flow: wrap-reverse;
+  }
+  nav {
+    display: flex;
+    padding-top: 30px;
+  }
+  nav a {
+    justify-content: stretch;
+  }
+  .cta-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: none;
+    font-size: 30px;
+  }
+}
+footer {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  footer {
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    margin: 20ox;
+  }
+}
+.home {
+  border-right: 15px solid #717B88;
+  border-left: 15px solid #717B88;
+}
+.home img {
+  height: 100px;
+  width: 100px;
+}
+.home .nav {
+  width: 100%;
+  background: #717B88;
+}
+.home .nav .logo {
+  display: flex;
+  width: 100%;
+  transform: rotate(0deg);
+  height: auto;
+  width: 130px;
+  float: left;
+}
+.home .nav h1 {
+  color: black;
+}
+.home .nav .nav-bar a {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  width: 110px;
+  font-size: 1.8rem;
+  border: 1px solid #2f3636;
+  color: white;
+}
+.home .intro {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+}
+.home .intro h2 {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 4.2rem;
+}
+.home .intro p {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 2.5rem;
+}
+.home .intro img {
+  width: 130px;
+  height: auto;
+  align-self: center;
+}
+.home .main .main-text {
+  width: 100%;
+  display: flex;
+  padding: 40px 50px;
+  justify-content: center;
+  flex-flow: column;
+}
+.home .main .main-text h3 {
+  margin-bottom: 30px;
+  font-size: 5rem;
+  text-align: center;
+}
+.home .main .main-text p {
+  margin-bottom: 26px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.home .main .btn {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #2f3636;
+  color: white;
+  padding: 5px 10px;
+  background-color: #2f3636;
+}
+.home .main .btn:hover {
+  color: #2f3636;
+  background-color: white;
+}
+.home .main .main-img {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+.home .main .main-img img {
+  height: 350px;
+  width: auto;
+  padding: 15px;
+}
+.home .footer {
+  width: 100%;
+  background: #717C89;
+}
+.about-container {
+  border-right: 15px solid #717B88;
+  border-left: 15px solid #717B88;
+}
+.about-container .about-header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background: #717B88;
+}
+.about-container .about-header h1 {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 4.2rem;
+}
+.about-container .about-header .about-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  width: 100%;
+  background: #717B88;
+}
+.about-container .about-header .about-nav a {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  width: 110px;
+  font-size: 1.8rem;
+  border: 1px solid #2f3636;
+  color: white;
+}
+.about-container .about-bio {
+  font-size: 1rem;
+  margin: 0 auto;
+}
+.about-container .about-bio .about-img {
+  width: auto;
+  height: 100px;
+}
+.about-container .btn {
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #2f3636;
+  color: white;
+  padding: 5px 10px;
+  background-color: #2f3636;
+}
+.about-container .btn:hover {
+  color: #2f3636;
+  background-color: white;
+}
