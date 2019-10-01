@@ -273,7 +273,9 @@ footer {
   float: left;
 }
 .home .nav h1 {
-  color: black;
+  color: white;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
 .home .nav .nav-bar a {
   display: inline-block;
@@ -281,8 +283,12 @@ footer {
   border-radius: 5px;
   width: 110px;
   font-size: 1.8rem;
+  margin: 25px 0px;
   border: 1px solid #2f3636;
   color: white;
+  font-size: 2.3rem;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
 .home .intro {
   display: flex;
@@ -294,6 +300,8 @@ footer {
   text-align: center;
   margin: 20px 0px;
   font-size: 4.2rem;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
 .home .intro p {
   text-align: center;
@@ -316,6 +324,8 @@ footer {
   margin-bottom: 30px;
   font-size: 5rem;
   text-align: center;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
 .home .main .main-text p {
   margin-bottom: 26px;
@@ -329,6 +339,7 @@ footer {
   width: 110px;
   display: flex;
   justify-content: center;
+  align-self: center;
   align-items: center;
   font-size: 3rem;
   width: 200px;
@@ -337,6 +348,8 @@ footer {
   color: white;
   padding: 5px 10px;
   background-color: #2f3636;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
 .home .main .btn:hover {
   color: #2f3636;
@@ -372,15 +385,18 @@ footer {
   text-align: center;
   margin: 20px 0px;
   font-size: 4.2rem;
+  color: white;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }
-.about-container .about-header .about-nav {
+.about-container .about-nav {
   display: flex;
   justify-content: space-evenly;
-  width: 30%;
   width: 100%;
+  padding: 25px 0px;
   background: #717B88;
 }
-.about-container .about-header .about-nav a {
+.about-container .about-nav a {
   display: inline-block;
   text-align: center;
   border-radius: 5px;
@@ -388,6 +404,9 @@ footer {
   font-size: 1.8rem;
   border: 1px solid #2f3636;
   color: white;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
+  font-size: 2.3rem;
 }
 .about-container .about-bio {
   font-size: 1rem;
@@ -396,24 +415,34 @@ footer {
 .about-container .about-bio .about-img {
   width: auto;
   height: 100px;
+  margin: 10px 0px;
 }
-.about-container .btn {
-  display: inline-block;
+.about-container .about-bio .person {
   text-align: center;
-  border-radius: 5px;
-  width: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  width: 200px;
-  height: 50px;
-  border: 1px solid #2f3636;
-  color: white;
-  padding: 5px 10px;
-  background-color: #2f3636;
+  margin: 20px 0px;
 }
-.about-container .btn:hover {
-  color: #2f3636;
-  background-color: white;
+.about-container .about-bio .person h4 {
+  font-size: 2rem;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
+  font-size: 2.3rem;
+}
+.about-container .about-bio .person a {
+  font-size: 1rem;
+}
+.about-container .about-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background: #717B88;
+}
+.about-container .about-footer p {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 2.2rem;
+  color: white;
+  font-family: 'Mansalva', cursive;
+  font-family: 'Kalam', cursive;
 }

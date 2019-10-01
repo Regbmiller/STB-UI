@@ -20,7 +20,10 @@
       float: left;
     }
     h1 {
-      color: black;
+      color: white;
+     // font-family: 'Mansalva', cursive;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
     }
    .nav-bar {
       a {
@@ -29,8 +32,13 @@
       border-radius: 5px;
       width: 110px;
       font-size: 1.8rem;
+      margin: 25px 0px;
       border: 1px solid #2f3636;
       color: white;
+      font-family: 'Mansalva', cursive;
+      font-size: 2.3rem;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
       }
     }
 
@@ -49,6 +57,8 @@
       text-align: center;
       margin: 20px 0px;
       font-size: 4.2rem;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
     }
     p{
       text-align: center;
@@ -74,6 +84,8 @@
         margin-bottom: 30px;
         font-size: 5rem;
         text-align: center;
+        font-family: 'Mansalva', cursive;
+        font-family: 'Kalam', cursive;
       }
       p {
         margin-bottom: 26px;
@@ -86,6 +98,7 @@
       .buttonStyle(5px, 110px);
       display: flex;
       justify-content: center;
+      align-self: center;
       align-items: center;
       font-size: 3rem;
       width: 200px;
@@ -94,6 +107,8 @@
       color: white;
       padding: 5px 10px;
       background-color: #2f3636;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
       &:hover{
         color: #2f3636;
         background-color: white;
@@ -138,26 +153,32 @@
       text-align: center;
       margin: 20px 0px;
       font-size: 4.2rem;
-    }
-    
-    
-    .about-nav{
-      display: flex;
-      justify-content: space-evenly;
-      width: 30%;
-      width: 100%;
-      background: #717B88;
-        a {
-          display: inline-block;
-          text-align: center;
-          border-radius: 5px;
-          width: 110px;
-          font-size: 1.8rem;
-          border: 1px solid #2f3636;
-          color: white;
-          }
+      color: white;
+      //font-family: 'Mansalva', cursive;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
     }
   }//about-header
+
+  .about-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 0px;
+    background: #717B88;
+      a {
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+        width: 110px;
+        font-size: 1.8rem;
+        border: 1px solid #2f3636;
+        color: white;
+        font-family: 'Mansalva', cursive;
+        font-family: 'Kalam', cursive;
+        font-size: 2.3rem;
+      }
+  }//about-nav
 
   .about-bio{
     font-size: 1rem;
@@ -166,34 +187,42 @@
     .about-img {
       width: auto;
       height: 100px;
-    }
+      margin: 10px 0px;
+    }//img
+    .person{
+      text-align: center;
+      margin: 20px 0px;
 
-     
-    // .row {
-    //     display: flex;
-    //     justify-content: space-evenly;
-    //   }
-    // .column {
-    //   width: 30%;
-    // }
+      h4{
+        font-size: 2rem;
+        font-family: 'Mansalva', cursive;
+        font-family: 'Kalam', cursive;
+        font-size: 2.3rem;
+      }
+
+      a{
+        font-size: 1rem;
+      }
+    }//person
   }//about-bio
 
-  .btn{
-    text-align: center;
-     .buttonStyle(5px, 110px);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 3rem;
-      width: 200px;
-      height: 50px;
-      border: 1px solid #2f3636;
+  .about-footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background: #717B88;
+
+    p{
+      text-align: center;
+      margin: 20px 0px;
+      font-size: 2.2rem;
       color: white;
-      padding: 5px 10px;
-      background-color: #2f3636;
-      &:hover{
-        color: #2f3636;
-        background-color: white;
-      } 
+      //font-family: 'Mansalva', cursive;
+      font-family: 'Mansalva', cursive;
+      font-family: 'Kalam', cursive;
+    }
   }
+  
 }//about-container
